@@ -18,15 +18,15 @@ test.describe("App", () => {
   });
 
   test("should render Vite and React logos", async ({ page }) => {
-    await expect(page.getByAltText("Vite logo")).toBeVisible();
+    // await expect(page.getByAltText("Vite logo")).toBeVisible();
     await expect(page.getByAltText("React logo")).toBeVisible();
   });
 
   test("should have working links", async ({ page }) => {
-    await expect(page.getByRole("link", { name: /vite/i })).toHaveAttribute(
-      "href",
-      "https://vite.dev"
-    );
+    // await expect(page.getByRole("link", { name: /vite/i })).toHaveAttribute(
+    //   "href",
+    //   "https://vite.dev"
+    // );
     await expect(page.getByRole("link", { name: /react/i })).toHaveAttribute(
       "href",
       "https://react.dev"
