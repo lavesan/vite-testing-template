@@ -18,7 +18,7 @@ yarn dev
 # Run unit/component tests
 yarn test
 yarn test:ui    # with UI
-yarn coverage   # with coverage report
+yarn test:coverage   # with coverage report
 
 # Run e2e tests
 yarn test:e2e
