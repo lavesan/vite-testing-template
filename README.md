@@ -29,8 +29,7 @@ yarn test:e2e
 - `src/` - Application source code
   - `test/` - Test setup and utilities
   - `*.test.tsx` - Unit and component tests
-- `e2e/` - End-to-end tests
-- `cypress/` - Cypress component tests
+- `tests/` - Playwright End-to-end tests
 
 ## Technologies
 
@@ -39,7 +38,6 @@ yarn test:e2e
 - Vite
 - Vitest + Testing Library
 - Playwright
-- Cypress
 
 ## Available Scripts
 
@@ -48,5 +46,5 @@ yarn test:e2e
 - `preview` - Preview production build
 - `test` - Run Vitest tests
 - `test:ui` - Run Vitest with UI
-- `coverage` - Generate test coverage report
+- `test:coverage` - Generate test coverage report
 - `test:e2e` - Run Playwright tests
